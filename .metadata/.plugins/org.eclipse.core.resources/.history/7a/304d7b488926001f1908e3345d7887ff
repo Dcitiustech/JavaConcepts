@@ -1,0 +1,25 @@
+package com.understanding.listconcepts;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class VirtualCapacity {
+	public static void main(String[] args) {
+		ArrayList<Object> arr=new ArrayList<Object>();
+		arr.size();
+		System.out.println(arr.size());
+		ArrayList<Integer> arr1=new ArrayList<Integer>(Arrays.asList(1,34,54,100,145));
+		int size=arr1.size();
+		String[] str={"USA","UK","Dubai","Australia","Arab","Tasmania"};
+		for(int i=0;i<str.length;i++)
+		{
+			System.out.println(str[i]);
+		}
+		
+		ArrayList<String> arrlst=new ArrayList<String>(Arrays.asList(str));
+		int size1=arrlst.size();
+		System.out.println(size1);
+		
+	}
+
+}

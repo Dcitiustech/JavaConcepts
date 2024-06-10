@@ -1,0 +1,46 @@
+package basicprograms;
+
+public class JavaProgram {
+	int rev=0;
+	//To find Odd or even number 
+	public void oddevenNum(int no)
+	{
+		if(no%2==0)
+		{
+			System.out.println("no is even");
+		}
+		else
+		{
+			System.out.println("no is odd");
+		}
+	}
+	
+	//swap 2 no.s without using third variable
+	
+	public void swapingNumber(int a,int b)
+	{
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("After swaping no is "+a+"and"+b);
+	}
+	public void reverseANumber(int no,int r)
+	
+	while(no>0)
+	{
+		r=no%10;
+		rev=rev*10+r;
+		no=no/10;
+	}
+	System.out.println("Reverse the no is :"+rev);
+	{
+		
+		}
+	public static void main(String[] args) {
+		
+		JavaProgram jp=new JavaProgram();
+		jp.oddevenNum(39);
+		jp.swapingNumber(40, 20);
+	}
+
+}

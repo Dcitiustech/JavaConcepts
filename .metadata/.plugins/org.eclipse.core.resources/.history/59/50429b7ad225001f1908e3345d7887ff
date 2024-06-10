@@ -1,0 +1,12 @@
+package com.understanding.listconcepts;
+
+
+
+public class ArrayList {
+	
+	public static void main(String[] args) {
+		ArrayList<Integer> lst=new ArrayList<Integer>();
+		
+	}
+
+}
